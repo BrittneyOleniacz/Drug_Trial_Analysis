@@ -17,10 +17,27 @@ Generate all of the tables and figures needed for the technical report of the st
 * Calculate the final tumor volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. Calculate the quartiles and IQR and quantitatively determine if there are any potential outliers across all four treatment regimens.
 * Generate a box and whisker plot of the final tumor volume for all four treatment regimens and highlight any potential outliers in the plot by changing their color and style.
 
-### Cappomulin Efficiency
+### Capomulin Efficiency
 * Select a mouse that was treated with Capomulin and generate a line plot of tumor volume vs. time point for that mouse.
 * Generate a scatter plot of mouse weight versus average tumor volume for the Capomulin treatment regimen.
 * Calculate the correlation coefficient and linear regression model between mouse weight and average tumor volume for the Capomulin treatment. Plot the linear regression model on top of the previous scatter plot.
 
 
+# Report
+### Summary Statistics Table
+
+### Total mice per treatment
+
+### Female vs. Male
+
+### Final Tumor volume
+
+## Capomulin Efficiency
+### Tumor volume vs. Time
+
+
+### Mouse weight vs. average tumar volume
+
+
+### Linear regression model
 
