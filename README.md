@@ -12,8 +12,6 @@ Generate all of the tables and figures needed for the technical report of the st
 ## Tasks
 * Clean data by checking for any mouse ID with duplicate time points.
 * Generate a summary statistics table consisting of the mean, median, variance, standard deviation, and SEM of the tumor volume for each drug regimen.
-* Generate a bar plot using both Pandas's `DataFrame.plot()` and Matplotlib's `pyplot` that shows  the number of total mice for each treatment regimen throughout the course of the study. **NOTE:** These plots should look identical. 
-* Generate a pie plot using both Pandas's `DataFrame.plot()` and Matplotlib's `pyplot` that shows the distribution of female or male mice in the study. **NOTE:** These plots should look identical.
 * Calculate the final tumor volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. Calculate the quartiles and IQR and quantitatively determine if there are any potential outliers across all four treatment regimens.
 * Generate a box and whisker plot of the final tumor volume for all four treatment regimens and highlight any potential outliers in the plot by changing their color and style.
 
@@ -23,21 +21,28 @@ Generate all of the tables and figures needed for the technical report of the st
 * Calculate the correlation coefficient and linear regression model between mouse weight and average tumor volume for the Capomulin treatment. Plot the linear regression model on top of the previous scatter plot.
 
 
-# Report
+## Report
 ### Summary Statistics Table
+![Summary](visualizations/.png)
 
 ### Total mice per treatment
+![Total Mice per treatment](visualizations/.png)
 
 ### Female vs. Male
+![Female vs. Male](visualizations/.png)
 
 ### Final Tumor volume
+![Final Tumor Volume](visualizations/.png)
 
-## Capomulin Efficiency
+### Capomulin Efficiency
+![Capomulin Efficiency](visualizations/.png)
+
 ### Tumor volume vs. Time
+![Tumor volume vs. time](visualizations/.png)
 
-
-### Mouse weight vs. average tumar volume
-
+### Mouse weight vs. average tumor volume
+![weight vs. average tumor volume](visualizations/.png)
 
 ### Linear regression model
+![linear regressions](visualizations/.png)
 
